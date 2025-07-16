@@ -70,3 +70,12 @@ color:#727272;
   .banner-description{
    
   }
+  /* responsive media  */
+
+  @media screen and (max-width:576px){
+   .nav-link,.navbar{
+    flex-direction: column;
+  gap: 20px;
+   }
+    
+  }
